@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/callout_crop"
+        android:scaleType="fitXY"
+        />
+    <View android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/activity_background"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/logo_radius"
+                android:layout_height="@dimen/logo_radius"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/logotrans"
+                android:background="@drawable/logobackground"
+
+                />
+
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/welcome_text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/header"
+                android:textStyle="bold|italic"
+                tools:fontFamily="@font/abeezee" />
+
+            <TextView
+                android:id="@+id/tab_a_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/welcome"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/tap_a_button"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:fontFamily="@font/abeezee" />
+            <TextView
+                android:id="@+id/comes_to_you"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tab_a_button"
+                android:text="@string/mechanic_will_come_to_you"
+                tools:fontFamily="@font/abeezee"
+                style="@style/TextView_Style" />
+            <Button
+                android:id="@+id/btn_goto_login"
+                android:layout_width="@dimen/button_width_small"
+                android:layout_height="@dimen/button_height"
+                android:layout_below="@id/comes_to_you"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:background="@drawable/button_background"
+                android:onClick="gotoLogin"/>
+
+            <Button
+                android:id="@+id/btn_goto_sign_up"
+                android:layout_width="@dimen/button_width_small"
+                android:layout_height="@dimen/button_height"
+                android:layout_below="@id/btn_goto_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/sign_up"
+                android:textColor="@color/white"
+                android:background="@drawable/button_background"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

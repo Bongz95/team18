@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_radius">150dp</dimen>
+    <dimen name="view_width">300dp</dimen>
+    <dimen name="half_view_width">125dp</dimen>
+    <dimen name="txt_padding">10dp</dimen>
+    <dimen name="button_width">210dp</dimen>
+    <dimen name="btn_text_size">18sp</dimen>
+    <dimen name="border_radius">20dp</dimen>
+    <dimen name="header">25sp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="button_width_small">90dp</dimen>
+    <dimen name="view_radius">10dp</dimen>
+    <dimen name="small_text">12sp</dimen>
+</resources>

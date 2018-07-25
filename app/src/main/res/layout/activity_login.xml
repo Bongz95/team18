@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/roadside"
+        android:scaleType="centerCrop"
+
+        />
+    <View android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/activity_background"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/logo_radius"
+                android:layout_height="@dimen/logo_radius"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/logotrans"
+                android:background="@drawable/logobackground"
+
+                />
+            <TextView
+                android:id="@+id/login_here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo"
+                android:layout_marginTop="50dp"
+                android:text="@string/login_here"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"/>
+            <EditText
+                android:id="@+id/text_username"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/login_here"
+                android:layout_marginTop="55dp"
+                style="@style/edit_text_style"
+                android:hint="@string/text_username"
+                android:textColorHint="@color/hint_color"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawableStart="@drawable/ic_user"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/text_password"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/text_username"
+                android:layout_marginTop="20dp"
+                style="@style/edit_text_style"
+                android:hint="@string/text_password"
+                android:textColorHint="@color/hint_color"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawableStart="@drawable/ic_lock"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_below="@id/text_password"
+                android:background="@drawable/button_background"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                android:elevation="58dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

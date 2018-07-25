@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Mechanify</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_search">Search</string>
+    <string name="api_key">AIzaSyDtrtq_uxeBbfQMJyQ3mBPOygAMs7MBrek</string>
+    <string name="mechanify_logo">Mechanify Logo</string>
+    <string name="log_in">Log In</string>
+    <string name="create_one"><u>Create One</u></string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="welcome_text">Welcome to Mechanify</string>
+    <string name="tap_a_button">Tap a Button, Get a Mechanic</string>
+    <string name="mechanic_will_come_to_you">Wherever you\'re in the city, just tab a button and a mechanic will come to you</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="login_here">Login Here</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="initial_username">John Doe</string>
+    <string name="request_a_mechanic">Request a Mechanic</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="your_last_fix">Your Last Fix</string>
+    <string name="location"><u>Location</u></string>
+    <string name="your_mechanic"><u>Your Mechanic</u></string>
+    <string name="placeholder_lat">-25.265</string>
+    <string name="placeholder_long">55.369</string>
+    <string name="long_label">Long</string>
+    <string name="lat_label">Lat</string>
+    <string name="map_view"><u>Map View</u></string>
+    <string name="view_profile"><u>View Profile</u></string>
+    <string name="rating_placeholder">Your Rating: 4.5</string>
+    <string name="details"><u>Details</u></string>
+    <string name="email_placeholder">johndoe@snap.com</string>
+    <string name="unsuccessful">Unsuccessful</string>
+    <string name="successful">Successful</string>
+    <string name="requests">Requests</string>
+    <string name="request_overview">Request Overview</string>
+    <string name="_2h_45m">2h 45m</string>
+    <string name="duration">Duration</string>
+    <string name="rate_placeholder">R152.23/hr</string>
+    <string name="rate">Rate</string>
+    <string name="total_placeholder">R352.25</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="mechanic_name_placeholder">Eric Smith</string>
+</resources>
