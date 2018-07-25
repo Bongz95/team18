@@ -1,0 +1,3 @@
+[submodule "Mechanify"]
+	path = Mechanify
+	url = https://github.com/Bongz95/MechanifyMobileApp.git
